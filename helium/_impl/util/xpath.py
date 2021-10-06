@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 def lower(text):
 	alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝ\
-		АӐӒӘӚӔБВГҐЃҒӶҔДЂЕЀЁӖҼҾЄЖӁҖӜЗҘӞӠЅИЍӤӢІЇӀЙҊЈКҚҞҠӃҜЛӅЉМӍНҤҢӉӇЊОӦӨӪҨПҦ\
-		РҎСҪТҬЋЌУЎӲӰӮҮҰФХҲҺЦҴЧӴҶӋҸЏШЩЪЫӸЬҌЭӬЮЯ'
+		АБВГҐДЂЃЕЀЁЄЖЗЗ́ЅИЍЙІЇЈКЛЉМНЊОŌПРСС́ТЋЌУӮЎФХЦЧЏШЩЪЫЬЭЮЯ'
 	return "translate(%s, '%s', '%s')" % (text, alphabet, alphabet.lower())
 
 def replace_nbsp(text, by=' '):
